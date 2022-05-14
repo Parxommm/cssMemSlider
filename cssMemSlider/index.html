@@ -24,9 +24,51 @@
   <meta name="msapplication-TileImage" content="./assets/favicon/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
   <!-- Styles -->
+  <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-  <h1>Hello!</h1>
+  <div class="container">
+    <header class="header">
+      <h1 class="title">CSS Mem Slider</h1>
+    </header>
+    <main>
+      <div class="slider">
+        <input class="radio-btn" type="radio" name="r" id="r1" checked>
+        <input class="radio-btn" type="radio" name="r" id="r2">
+        <input class="radio-btn" type="radio" name="r" id="r3">
+        <input class="radio-btn" type="radio" name="r" id="r4">
+        <input class="radio-btn" type="radio" name="r" id="r5">
+        <input class="radio-btn" type="radio" name="r" id="r6">
+
+        <div class="slides">
+          <div class="slide"><img class="slide-img" src="./assets/img/1.jpg" alt="slide 1"></div>
+          <div class="slide"><img class="slide-img" src="./assets/img/2.jpg" alt="slide 2"></div>
+          <div class="slide"><img class="slide-img" src="./assets/img/3.jpg" alt="slide 3"></div>
+          <div class="slide"><img class="slide-img" src="./assets/img/4.jpg" alt="slide 4"></div>
+          <div class="slide"><img class="slide-img" src="./assets/img/5.jpg" alt="slide 5"></div>
+          <div class="slide"><img class="slide-img" src="./assets/img/6.jpg" alt="slide 6"></div>
+        </div>
+
+        <div class="descriprions">
+          <span class="description description--1">И не только перед сном...</span>
+          <span class="description">И так сойдёт!</span>
+          <span class="description">Когда читаешь ТЗ к таску RS School</span>
+          <span class="description">Ну это просто жиза</span>
+          <span class="description">Когда узнал, что есть требования к репозиторию</span>
+          <span class="description">Куда без него</span>
+        </div>
+
+        <div class="navigation">
+          <label class="bar bar--1" for="r1"></label>
+          <label class="bar bar--2" for="r2"></label>
+          <label class="bar bar--3" for="r3"></label>
+          <label class="bar bar--4" for="r4"></label>
+          <label class="bar bar--5" for="r5"></label>
+          <label class="bar bar--6" for="r6"></label>
+        </div>
+      </div>
+    </main>
+  </div>
 </body>
 </html>
