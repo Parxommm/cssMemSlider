@@ -13,7 +13,8 @@ body {
   flex-direction: column;
   min-height: 100vh;
   margin: 0 auto;
-  max-width: 80%;
+  width: 80%;
+  max-width: 60rem;
   padding: 0 2rem
 }
 
@@ -37,6 +38,7 @@ body {
   box-shadow: 0 0 0 0.1rem rgba(255, 255, 255, 1);
   border-radius: 0.5rem;
   padding: 1rem 0;
+  margin-bottom: 1rem;
 }
 
 .slides {
@@ -79,7 +81,7 @@ body {
 .navigation {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   width: 100%;
   padding: 0 1rem;
   background: #293f50;
@@ -247,7 +249,7 @@ body {
 /* Mobile */
 @media (max-width: 479.98px) {
   .container {
-    max-width: 100%;
+    width: 100%;
   }
 
   .slider {
