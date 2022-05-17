@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cssMemSlider</title>
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="./assets/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="./assets/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="./assets/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <!-- Styles -->
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 class="title">CSS Mem Slider</h1>
+    </header>
+    <main>
+      <div class="slider">
+        <input class="radio-btn" type="radio" name="btn" id="btn1" checked>
+        <input class="radio-btn" type="radio" name="btn" id="btn2">
+        <input class="radio-btn" type="radio" name="btn" id="btn3">
+        <input class="radio-btn" type="radio" name="btn" id="btn4">
+        <input class="radio-btn" type="radio" name="btn" id="btn5">
+        <input class="radio-btn" type="radio" name="btn" id="btn6">
+
+        <div class="slides">
+          <div class="slide"><img class="slide-img" src="./assets/img/1.jpg" alt="slide 1"></div>
+          <div class="slide"><img class="slide-img" src="./assets/img/2.jpg" alt="slide 2"></div>
+          <div class="slide"><img class="slide-img" src="./assets/img/3.jpg" alt="slide 3"></div>
+          <div class="slide"><img class="slide-img" src="./assets/img/4.jpg" alt="slide 4"></div>
+          <div class="slide"><img class="slide-img" src="./assets/img/5.jpg" alt="slide 5"></div>
+          <div class="slide"><img class="slide-img" src="./assets/img/6.jpg" alt="slide 6"></div>
+        </div>
+
+        <div class="descriprions">
+          <span class="description">И так сойдёт!</span>
+          <span class="description">Когда узнал, что есть требования к репозиторию</span>
+          <span class="description">Когда читаешь ТЗ к таску RS School</span>
+          <span class="description">Ну это просто жиза</span>
+          <span class="description">Куда без него</span>
+          <span class="description">И не только перед сном...</span>
+        </div>
+
+        <div class="navigation">
+          <label class="bar bar--1" for="btn1"><div class="dot"></div></label>
+          <label class="bar bar--2" for="btn2"><div class="dot"></div></label>
+          <label class="bar bar--3" for="btn3"><div class="dot"></div></label>
+          <label class="bar bar--4" for="btn4"><div class="dot"></div></label>
+          <label class="bar bar--5" for="btn5"><div class="dot"></div></label>
+          <label class="bar bar--6" for="btn6"><div class="dot"></div></label>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <span class="footer__developer">CSS Mem Slider by <b>Evgeny Parkhomenko</b>, 2022</span>
+      <a class="footer__github-link" href="https://github.com/Parxommm"><img src="assets/svg/icons8-github.svg" alt="github logo" width="48" height="48"></a>
+    </footer>
+  </div>
+</body>
+</html>
