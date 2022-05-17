@@ -114,83 +114,83 @@ body {
   opacity: 0.5;
 }
 
-#r1:checked ~ .navigation .bar--1 .dot {
+#btn1:checked ~ .navigation .bar--1 .dot {
   background-color: #293f50;
   border: 0.2rem solid coral;
 }
 
-#r2:checked ~ .navigation .bar--2 .dot {
+#btn2:checked ~ .navigation .bar--2 .dot {
   background-color: #293f50;
   border: 0.2rem solid coral;
 }
 
-#r3:checked ~ .navigation .bar--3 .dot {
+#btn3:checked ~ .navigation .bar--3 .dot {
   background-color: #293f50;
   border: 0.2rem solid coral;
 }
 
-#r4:checked ~ .navigation .bar--4 .dot {
+#btn4:checked ~ .navigation .bar--4 .dot {
   background-color: #293f50;
   border: 0.2rem solid coral;
 }
 
-#r5:checked ~ .navigation .bar--5 .dot {
+#btn5:checked ~ .navigation .bar--5 .dot {
   background-color: #293f50;
   border: 0.2rem solid coral;
 }
 
-#r6:checked ~ .navigation .bar--6 .dot {
+#btn6:checked ~ .navigation .bar--6 .dot {
   background-color: #293f50;
   border: 0.2rem solid coral;
 }
 
 /* Slides */
-#r1:checked ~ .slides {
+#btn1:checked ~ .slides {
   transform: translateX(0);
 }
 
-#r2:checked ~ .slides {
+#btn2:checked ~ .slides {
   transform: translateX(calc(-100% / 6));
 }
 
-#r3:checked ~ .slides {
+#btn3:checked ~ .slides {
   transform: translateX(calc(-100% / 6 * 2));
 }
 
-#r4:checked ~ .slides {
+#btn4:checked ~ .slides {
   transform: translateX(calc(-100% / 6 * 3));
 }
 
-#r5:checked ~ .slides {
+#btn5:checked ~ .slides {
   transform: translateX(calc(-100% / 6 * 4));
 }
 
-#r6:checked ~ .slides {
+#btn6:checked ~ .slides {
   transform: translateX(calc(-100% / 6 * 5));
 }
 
 /* Descriptions */
-#r1:checked ~ .descriprions {
+#btn1:checked ~ .descriprions {
   transform: translateX(0);
 }
 
-#r2:checked ~ .descriprions {
+#btn2:checked ~ .descriprions {
   transform: translateX(calc(-100% / 6));
 }
 
-#r3:checked ~ .descriprions {
+#btn3:checked ~ .descriprions {
   transform: translateX(calc(-100% / 6 * 2));
 }
 
-#r4:checked ~ .descriprions {
+#btn4:checked ~ .descriprions {
   transform: translateX(calc(-100% / 6 * 3));
 }
 
-#r5:checked ~ .descriprions {
+#btn5:checked ~ .descriprions {
   transform: translateX(calc(-100% / 6 * 4));
 }
 
-#r6:checked ~ .descriprions {
+#btn6:checked ~ .descriprions {
   transform: translateX(calc(-100% / 6 * 5));
 }
 
